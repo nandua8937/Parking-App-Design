@@ -51,14 +51,18 @@
   color: white;
   font-family: Roboto;
   padding:10px 30px;
-  width: 100px;
+  width: 120px;
   text-align:center;
   border:none;
+  white-space: nowrap;
+  margin-left:30px;
  
 }
 .btn:hover{
   background:#eddfd3;
   cursor: pointer;
+  color:black;
+  font-family: Roboto;
 }
 img{ 
   width:55px;
@@ -75,7 +79,7 @@ table {
 
 td, th {
   border: 1px solid #dddddd;
-  text-align: left;
+  text-align: center;
   padding: 8px;
   color: white;
 }
@@ -87,12 +91,12 @@ tr:nth-child{
   width:81%;
   margin-left:125px;
   margin-top:50px;
-  position:absolute;
 }
 h3{
-  margin-left:475px;
+  margin-left:450px;
   margin-bottom: 10px;
   color: white;
+  font-family: Roboto;
 }
 .img1{
   position:absolute;
@@ -118,14 +122,20 @@ h4{
 }
 .red .material-icons{
   color:red;
+  cursor:pointer;
+}
+.content .material-icons:hover{
+  color:white;
 }
 .black .material-icons{
-  color: yellow;
+  color: orange;
+  cursor:pointer;
 }
 .bottom #red{
   color:red;
 }
 .bottom #black {
-  color:yellow;
+  color:orange;
   margin-left:20px;
 }
+
