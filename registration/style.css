@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "Roboto";
+  src:url("asset/Roboto-Regular.ttf");
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  margin-bottom:5px;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+.bg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+.midimg{
+  width:400px;
+  height:450px;
+  z-index:0;
+  position: absolute;
+  margin-left:650px;
+  z-index: 0;
+  margin-top: 80px;
+  box-shadow:5px 5px #b9b8c2;
+  
+}
+.inner{
+  width:450px;
+  height:400px;
+  background: white;
+  position: absolute; 
+  margin-left: 220px;
+  margin-top: 100px;
+  box-shadow:4px 4px #b9b8c2;
+
+}
+h3{ 
+  color: white;
+  font-family: "Roboto";
+  position:absolute;
+  margin-left: 800px;
+  margin-top:250px;
+  
+}
+h5{
+  color: white;
+  font-family: "Roboto";
+  position:absolute;
+  margin-left: 773px;
+  margin-top:280px;
+
+}
+.btn{
+  background: #090eab;
+  color: white;
+  font-family: "Roboto";
+  position: absolute;
+  margin-left:790px;
+  margin-top:310px;
+  padding: 10px 35px;
+  cursor: pointer;
+  border:none;
+  white-space: nowrap; 
+}
+.inner h3{
+  color: black;
+  white-space: nowrap;
+  font-family: Roboto;
+  position: absolute;
+  margin-left: 40px;
+  
+}
+.inner-box{
+  margin-left: 100px;
+  margin-top: 100px;
+}
+a{
+  margin-left:30px;
+  cursor:pointer;
+  text-decoration: underline;
+
+}
+.check{
+  margin-right:1px;
+}
+.input{
+  margin-top:10px;
+  padding: 2px 10px;
+  
+}
+::placeholder{
+
+}
+.rf{
+  margin-top: 10px;
+  
+}
+.rf input{
+  margin-left:0px;
+}
+.btn2{
+  background: #090eab;
+  color: white; 
+  padding: 10px 35px;
+  margin-top: 13px;
+  margin-left:50px;
+  outline:none;
+  border: none;
+  text-align:center;
+  display:flex;
+  cursor:pointer;
+}
+.btn2 .material-icons{
+  font-size:15px;
+  margin-right:6px;
+  
+}
+.btn2:hover{
+  background:#575dfa;
+}
+.input:focus{
+  outline:none;
+}
+.lh{
+  margin-bottom:12px;
+  margin-left:25px;
+  font-size:25px;
+  color: black;
+}
+.btn{
+  background: #090eab;
+  color: white;
+  font-family: "Roboto";
+  position: absolute;
+  margin-left:790px;
+  margin-top:310px;
+  padding: 10px 35px;
+  cursor: pointer;
+  border:none;
+  white-space: nowrap; 
+}
+.btn:hover{
+  background:#575dfa;
+  
+}
